@@ -1,5 +1,9 @@
 var acc = document.getElementsByClassName("accordion");
+<<<<<<< HEAD
 var panel = document.getElementsByClassName('panel');
+=======
+var panel = document.getElementsByClassName('text');
+>>>>>>> origin/main
 
 for (var i = 0; i < acc.length; i++) {
     acc[i].onclick = function() {
