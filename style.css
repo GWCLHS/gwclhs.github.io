@@ -59,6 +59,11 @@
 	.text {
 		font-size: 30px;
 	}
+  .bio {
+    font-size:25px;
+    font-weight:bold;
+    
+  }
 	.image {
 		width: 120px;
 		padding: 1px 50px;
