@@ -19,3 +19,4 @@ function setClass(els, className, fnName) {
         els[i].classList[fnName](className);
     }
 }
+
