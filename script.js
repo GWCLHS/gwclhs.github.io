@@ -20,3 +20,4 @@ function setClass(els, className, fnName) {
     }
 }
 
+// Ava DuVernay
