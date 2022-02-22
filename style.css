@@ -1,36 +1,35 @@
 	.logo{
-		width: 15%;
+		width: 10.2rem;
 		float: left;
 	}
 	#title {
 		font-style: italic;
-		padding: .25% .5%;
+		padding: 5px 10px;
     font-size: 300%;
 	}
 	body {
-  	margin: 1% 5%;
+  		margin: 20px 100px;
 		background-color: #DA2C57;
 		padding: 5%;
 		text-decoration: none;
 	}
 	.topnav {
-  	background-color: rgb(236, 242, 119);
-		padding: 1% 0%;
+  		background-color: rgb(236, 242, 119);
+		padding: 5px;
 		text-align: center;
-    z-index: -1;
 	}
 	.topnav a {
-		font-size: 150%;
+		font-size: 1.5rem;
 		font-family: 'comic sans';
 		color: #b82771;
 		padding: .25rem 1rem;
 		text-align: center;
 		background-color: rgb(236, 242, 119);
 		text-decoration: none;
-    z-index: -1;
 	}
 	.topnav a:hover {
-  		background-color: rgb(222, 228, 113);
+  		background-color: #ddd;
+  		color: black;
 	}
 	h1 {
 		float: center;
@@ -41,21 +40,15 @@
 		text-align: center;
 	}
 	h3 {
-    color: #06A08f;
+		color: #b82771;
 		text-align: center;
-		font-size: 200%;
+		font-size: 40px;
     background-color: rgb(236, 242, 119);
-	}
-  .image {
-  	background-color: rgb(236, 242, 119);
-		padding: 1%;
-		text-align: center;
-    z-index: -1;
 	}
 	p {
 		text-align: center;
 		font-family: 'Kurale';
-		padding: .25% 2.5%;
+		padding: 1px 50px;
 	}
 	ul {
 		font-family: 'Kurale';
@@ -66,13 +59,8 @@
 	.text {
 		font-size: 30px;
 	}
-  .bio {
-    font-size:25px;
-    font-weight:bold;
-    
-  }
-	.portrait {
-		width: 13%;
+	.image {
+		width: 120px;
 		padding: 1px 50px;
 	}
 	#groups {
@@ -87,3 +75,7 @@ div.panel {
 div.panel.show {
     display: block !important;
 }
+.portrait {
+		width: 13%;
+		padding: 1px 50px;
+	}
