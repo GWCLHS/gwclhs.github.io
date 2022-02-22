@@ -75,3 +75,7 @@ div.panel {
 div.panel.show {
     display: block !important;
 }
+.portrait {
+		width: 13%;
+		padding: 1px 50px;
+	}
