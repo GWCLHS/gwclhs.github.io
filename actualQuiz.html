@@ -23,9 +23,8 @@
   		<a href=member.html>Members</a>
 	</div>
   <h3>Quiz</h3>
-  <br>
-  <br>
-  <br>
+		<div id="quiz">
+			<!-- Question 1 -->
   <h2>Q1: Which movie did Ava DuVernay direct?</h2>
 		<input type="radio" id="q1a1" name="q1" value="q1a1">
 		<label for="q1a1">Avengers</label>
@@ -36,12 +35,42 @@
 		<input type="radio" id="q1a3" name="q1" value="q1a3">
 		<label for="q1a3">The Lorax</label>
 		<br>
+			<!-- Question 2 -->
 	<h2>Q2: When was Ava DuVernay born?</h2>
 		<input type="radio" id="q2a1" name="q2" value="q2a1">1972</input>
+			<br>
 		<input type="radio" id="q2a2" name="q2" value="q2a2">1989</input>
-		<input type="radio" id="q1a3" name="q2" value="q2a3">1979</input>
-  <br>
-  <br>
-  <br>
+			<br>
+		<input type="radio" id="q2a3" name="q2" value="q2a3">1979</input>
+			<br>
+			<!-- Question 3 -->
+	<h2>Q3: Ava DuVernay graduated from:</h2>
+		<input type="radio" id="q3a1" name="q3" value="q3a1">Harvard University</input>
+			<br>
+		<input type="radio" id="q3a2" name="q3" value="q3a2">the University of Virginia</input>
+			<br>
+		<input type="radio" id="q3a3" name="q3" value="q3a3">the University of California</input>
+			<br>
+			<!-- Question 4 -->
+	<h2>Q4: She was the first African American women to:</h2>
+		<input type="radio" id="q4a1" name="q4" value="q4a1">Go to space</input>
+			<br>
+		<input type="radio" id="q4a2" name="q4" value="q4a2">Direct a TV show</input>
+			<br>
+		<input type="radio" id="q4a3" name="q4" value="q4a3">Be nominated for a Golden Globe</input>
+			<br>
+			<!-- Question 5 -->
+	<h2>Q5: Which TV series did she cocreate and co write?</h2>
+		<input type="radio" id="q5a1" name="q5" value="q5a1">Naomi</input>
+			<br>
+		<input type="radio" id="q5a2" name="q5" value="q5a2">The Way I See It</input>
+			<br>
+		<input type="radio" id="q5a3" name="q5" value="q5a3">Fighting Fiction</input>
+			<br>
+			<br>
+			<br>
+			<button onclick="updateResult()">Submit!</button>
+			<p id="result">Your score is: </p>
+		</div>
   </body>
 </html>
