@@ -72,14 +72,14 @@
 		width: 250px;
 		padding: 1px 50px;
 	}
-div.panel {
+  div.panel {
     display: none;
-}
+  }
 
-div.panel.show {
+  div.panel.show {
     display: block !important;
-}
-.portrait {
+  }
+  .portrait {
 		width: 13%;
 		padding: 1px 50px;
-}
+  }
