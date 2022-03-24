@@ -1,33 +1,16 @@
-var acc = document.getElementsByClassName("accordion");
-var panel = document.getElementsByClassName('text');
-
-for (var i = 0; i < acc.length; i++) {
-    acc[i].onclick = function() {
-    	var setClasses = !this.classList.contains('active');
-        setClass(acc, 'active', 'remove');
-        setClass(panel, 'show', 'remove');
-        
-       	if (setClasses) {
-            this.classList.toggle("active");
-            this.nextElementSibling.classList.toggle("show");
-        }
-    }
-}
-
-function setClass(els, className, fnName) {
-    for (var i = 0; i < els.length; i++) {
-        els[i].classList[fnName](className);
-    }
+// Accordion
+function accordion(id){
+	var x = document.getElementById(id);
+  if (x.className.indexOf("show") == -1) {
+    x.className += " show";
+  } else {
+    x.className = x.className.replace(" show", "");
+  }
 }
 
 // Ava DuVernay Quiz
 function updateResult() {
-	var one = document.getElementById("q1a2");
-	var two = document.getElementById("q2a1");
-	var three = document.getElementById("q3a3");
-	var four = document.getElementById("q4a3");
-	var five = document.getElementById("q5a1");
-	var correct = [one, two, three, four, five];
+	var correct = [document.getElementById("q1a2"), document.getElementById("q2a1"), document.getElementById("q3a3"), document.getElementById("q4a3"), document.getElementById("q5a1")];
 	var numCorrect = 0;
 	var result = document.getElementById("result");
 
